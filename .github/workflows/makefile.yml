@@ -40,5 +40,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: minio-docs-artifact
-	compression-level: 9
-	path: ./docs/
+        compression-level: 9
+        path: ./docs/
