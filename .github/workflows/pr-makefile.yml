@@ -1,7 +1,8 @@
-name: Makefile CI
+name: Makefile Minimal CI
 
 on:
-  push:
+  pull_request:
+    type: ["opened","synchronize"]
     branches: [ "main" ]
 
 jobs:
