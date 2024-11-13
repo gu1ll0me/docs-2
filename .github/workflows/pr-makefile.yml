@@ -33,7 +33,7 @@ jobs:
         working-directory: ./
 
     - name: build-docs
-      run: ./build-docs-ci.sh
+      run: ./build-docs-ci-minimal.sh
 
     - name: upload-artifact
       uses: actions/upload-artifact@v4
